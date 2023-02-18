@@ -1,10 +1,10 @@
 {
-  "title": "Portfolio",
+  "title": "YM",
   "url": "https://yordanmonev.com/",
   "language": "en",
-  "description": "Hi",
+  "description": "Photography, videography and creative services in Sofia, Bulgaria",
   "feed": {
-    "subtitle": "Hi there.",
+    "subtitle": "Photography, videography and creative services in Sofia, Bulgaria",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://yordanmonev.com/"

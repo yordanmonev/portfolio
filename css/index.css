@@ -1,8 +1,9 @@
 /* Defaults */
 :root {
   --font-family: -apple-system, system-ui, sans-serif;
-  --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+
 }
+
 
 /* Theme colors */
 :root {
@@ -41,7 +42,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: var(--font-family);
+  font-family: 'Bitter', serif;
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -253,4 +254,20 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3em;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #000000;
+  
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -0.005em;
+  color: #000000;
 }
