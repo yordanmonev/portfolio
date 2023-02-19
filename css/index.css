@@ -42,7 +42,7 @@
 .hero-image {
   background-image: url('/img/sofia-buildings-header.jpg');
   background-color: #cccccc;
-  height: 500px;
+  height: 1440px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,7 +53,7 @@
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
