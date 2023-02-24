@@ -40,8 +40,7 @@
 
 /* Hero image */
 .hero-image {
-  background-image: url('/img/sofia-buildings-header.jpg');
-  background-color: #cccccc;
+  background-image: url('/img/paris-monmartre-sky.JPG');
   height: 1440px;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,6 +57,22 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.round {
+  border-radius: 15px;
+  margin: 1em;
+}
+
+.center {
+
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
 
 html,
 body {
@@ -89,8 +104,9 @@ a[href]:visited {
   color: var(--text-color-link-visited);
 }
 
+/* Side border */
 main {
-  padding: 1rem;
+  padding: 0rem;
 }
 main :first-child {
   margin-top: 0;
@@ -145,6 +161,7 @@ code {
   float: left;
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
+  text-align: center;
 }
 .home :link:not(:hover) {
   text-decoration: none;
