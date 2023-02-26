@@ -60,7 +60,11 @@
 
 .round {
   border-radius: 15px;
-  margin: 1em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  max-width: 600px;
 }
 
 .form-box {
@@ -98,7 +102,7 @@ p:last-child {
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: auto; /* 37.5em 600px /16 */
 }
 p,
 .tmpl-post li {
@@ -119,9 +123,11 @@ main {
 main :first-child {
   margin-top: 0;
 }
+/* Nav bottom border
 header {
   border-bottom: 1px dashed var(--color-gray-20);
 }
+*/
 header:after {
   content: "";
   display: table;
