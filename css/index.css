@@ -63,6 +63,15 @@
   margin: 1em;
 }
 
+.form-box {
+ padding: 2em;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ height: auto;
+ min-width: 300px;
+}
+
 .center {
 
   width: 100%;
