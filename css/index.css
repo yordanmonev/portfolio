@@ -67,9 +67,8 @@
  padding: 2em;
  margin-left: auto;
  margin-right: auto;
- width: 50%;
- height: auto;
- min-width: 300px;
+ width: 100%;
+ max-width: 800px;
 }
 
 .center {
